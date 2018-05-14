@@ -6,5 +6,6 @@ public class HelloWorld {
         System.out.println("commit and push");
         System.out.println("中文乱码？！");
         System.out.println("中文乱码？！");
+        System.out.println("commit and push");
     }
 }
