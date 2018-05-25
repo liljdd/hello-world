@@ -24,8 +24,7 @@ public class TeacherControl {
 
     @Test
     public void test02() {
-        // 解决冲突 xxxx
-        // 解决冲突 yyyy
+        // 解决冲突 y一y
         Teacher t = new Teacher("tom",13);
         logger.info("============="+t.getName());
         logger.info("============="+t.getAge());
