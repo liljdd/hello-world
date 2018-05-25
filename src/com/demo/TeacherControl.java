@@ -15,7 +15,7 @@ public class TeacherControl {
     @Test
     public void test01() {
         Teacher t = new Teacher();
-        // 解决冲突 yxy 你好
+        // 解决冲突 yxy 你好冲突
         t.setAge(12);
         t.setName("jim");
         System.out.println(t.getAge());
@@ -24,7 +24,6 @@ public class TeacherControl {
 
     @Test
     public void test02() {
-        // 解决冲突 yxy
         // 解决冲突 yxy
         Teacher t = new Teacher("tom",13);
         logger.info("============="+t.getName());
