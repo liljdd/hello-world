@@ -15,6 +15,7 @@ public class TeacherControl {
     @Test
     public void test01() {
         Teacher t = new Teacher();
+        // 解决冲突
         t.setAge(12);
         t.setName("jim");
         System.out.println(t.getAge());
