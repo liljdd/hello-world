@@ -10,7 +10,7 @@ import java.util.logging.Logger;
  * @date 18/05/25
  */
 public class TeacherControl {
-    public static final Logger logger = Logger.getLogger("TeacherControl");
+    private static final Logger logger = Logger.getLogger("TeacherControl");
 
     @Test
     public void test01() {
