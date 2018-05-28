@@ -18,7 +18,9 @@ public class TeacherControl {
         // 解决冲突 yxy
         t.setAge(12);
         t.setName("jim");
-        System.out.println(t.getAge());
+        String name = t.getName();
+        Integer age = t.getAge();
+        System.out.println(age);
         System.out.println(t.toString());
     }
 
@@ -29,5 +31,7 @@ public class TeacherControl {
         logger.info("============="+t.getName());
         logger.info("============="+t.getAge());
         System.out.println("============"+t.toString());
+
     }
+
 }
